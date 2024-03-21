@@ -25,6 +25,10 @@ Implementation Done Till Now:
 - Login Form Page
 - Sign Up Form Page
 - Form Validation
-- using 'useRef' Hook.
-- 
-- 
+- using 'useRef' Hook
+- Firebase Setup
+- Deploying Our App To Production
+- Create SignUp User Account
+-
+-
+-
