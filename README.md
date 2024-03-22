@@ -29,6 +29,9 @@ Implementation Done Till Now:
 - Firebase Setup
 - Deploying Our App To Production
 - Create SignUp User Account
+- Implemented User SignIn Feature
+- Created Redux Store with userSlice
+- 
 -
 -
 -

@@ -6,10 +6,12 @@ import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
 } from "firebase/auth";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
   const [isSignInForm, setIsSignInForm] = useState(true);
   const [errorMessage, setErrorMessage] = useState(null);
+  const navigate = useNavigate();
 
   const name = useRef(null);
   const email = useRef(null);
@@ -36,6 +38,7 @@ const Login = () => {
           // Signed up
           const user = userCredential.user;
           console.log(user);
+          navigate("/browse");
         })
         .catch((error) => {
           const errorCode = error.code;
@@ -45,19 +48,21 @@ const Login = () => {
     } else {
       // Sign In Logic
       signInWithEmailAndPassword(
-        auth, 
-        email.current.value, 
+        auth,
+        email.current.value,
         password.current.value
-        )
+      )
         .then((userCredential) => {
           // Signed in
           const user = userCredential.user;
           console.log(user);
+          navigate("/browse");
         })
         .catch((error) => {
           const errorCode = error.code;
           // const errorMessage = error.message;
-          if(errorCode === "auth/invalid-credential") setErrorMessage("Incorrect Credentials !!");
+          if (errorCode === "auth/invalid-credential")
+            setErrorMessage("Incorrect Credentials !!");
 
           // setErrorMessage(errorCode + "-" + errorMessage);
         });
