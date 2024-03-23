@@ -31,7 +31,8 @@ Implementation Done Till Now:
 - Create SignUp User Account
 - Implemented User SignIn Feature
 - Created Redux Store with userSlice
+- Implemented Sign out Feature 
+- Implemented Update Profile Feature
 - 
--
--
--
+- 
+- 

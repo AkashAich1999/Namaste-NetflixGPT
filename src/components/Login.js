@@ -7,6 +7,7 @@ import {
   signInWithEmailAndPassword,
 } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
+import { updateProfile } from "firebase/auth";
 
 const Login = () => {
   const [isSignInForm, setIsSignInForm] = useState(true);
@@ -37,8 +38,15 @@ const Login = () => {
         .then((userCredential) => {
           // Signed up
           const user = userCredential.user;
-          console.log(user);
-          navigate("/browse");
+          updateProfile(user, {
+            displayName: name.current.value, 
+            photoURL: "https://avatars.githubusercontent.com/u/108985323?v=4"
+          }).then(() => {
+            navigate("/browse");
+          }).catch((error) => {
+            setErrorMessage(error.message);
+          });
+          
         })
         .catch((error) => {
           const errorCode = error.code;
