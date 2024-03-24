@@ -33,6 +33,6 @@ Implementation Done Till Now:
 - Created Redux Store with userSlice
 - Implemented Sign out Feature 
 - Implemented Update Profile Feature
-- 
+- BugFix: Sign up user displayName and profile picture update
 - 
 - 
