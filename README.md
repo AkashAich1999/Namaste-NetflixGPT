@@ -38,6 +38,7 @@ Implementation Done Till Now:
 - BugFix: if the user is logged in & tries to access /, then redirect it to /browse
 - Unsubscibed to the onAuthStateChanged callback
 - Add hardcoded values to the constants file
+- Regiter TMDB API & create an app & get access token
 - 
 - 
 - 
