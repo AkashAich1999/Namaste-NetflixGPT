@@ -36,6 +36,7 @@ Implementation Done Till Now:
 - BugFix: Sign up user displayName and profile picture update
 - BugFix: if the user is not logged in & tries to Access /browse, Then Redirect to Login Page
 - BugFix: if the user is logged in & tries to access /, then redirect it to /browse
--
--
--
+- Unsubscibed to the onAuthStateChanged callback
+- 
+- 
+- 
