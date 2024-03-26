@@ -42,6 +42,8 @@ Implementation Done Till Now:
 - Get Data from TMDB 'Now Playing' movies list API
 - Adding movie data to the store (moviesSlice)
 - Creating our own Custom Hook (useNowPlayingMovies)
+- Building 'Browse Page'
+- 
 - 
 - 
 - 
