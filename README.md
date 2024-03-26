@@ -43,7 +43,7 @@ Implementation Done Till Now:
 - Adding movie data to the store (moviesSlice)
 - Creating our own Custom Hook (useNowPlayingMovies)
 - Building 'Browse Page'
-- 
+- Building 'Video Title' & 'Video Background'
 - 
 - 
 - 
