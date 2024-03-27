@@ -44,6 +44,7 @@ Implementation Done Till Now:
 - Creating our own Custom Hook (useNowPlayingMovies)
 - Building 'Browse Page'
 - Building 'Video Title' & 'Video Background'
+- Creating Custom Hook for Trailer Video
 - 
 - 
 - 
