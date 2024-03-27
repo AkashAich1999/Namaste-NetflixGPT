@@ -45,6 +45,10 @@ Implementation Done Till Now:
 - Building 'Browse Page'
 - Building 'Video Title' & 'Video Background'
 - Creating Custom Hook for Trailer Video
+- Fetch Data for Trailer Video
+- Update Store with Trailer Video Data
+- Embedded the Yotube video and make it autoplay and mute
+- Tailwind Classes to make Main Container look awesome
 - 
 - 
 - 
