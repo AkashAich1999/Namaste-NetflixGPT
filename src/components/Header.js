@@ -6,6 +6,7 @@ import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { addUser, removeUser } from "../utils/userSlice";
 import { LOGO } from "../utils/constants";
+import { toggleGptSearchView } from "../utils/gptSlice";
 
 const Header = () => {
   const dispatch = useDispatch();
@@ -14,8 +15,7 @@ const Header = () => {
 
   const handleSignOut = () => {
     signOut(auth)
-      .then(() => {
-      })
+      .then(() => {})
       .catch((error) => {
         navigate("/error");
       });
@@ -43,19 +43,26 @@ const Header = () => {
     });
 
     // Unsubscribe When Component Unmounts
-    return () => unsubscribe(); 
+    return () => unsubscribe();
   }, []);
+
+  const handleGptSearchClick = () => {
+    // Toggle GPT Search
+    dispatch(toggleGptSearchView());
+  };
 
   return (
     <div className="absolute w-screen px-8 py-2 bg-gradient-to-b from-black z-10 flex justify-between">
-      <img
-        className="w-44"
-        src={LOGO}
-        alt="logo"
-      />
+      <img className="w-44" src={LOGO} alt="logo" />
       {user && (
         <div className="flex p-2">
-          <img className="w-8 h-12" alt="usericon" src={user?.photoURL} />
+          <button
+            className="bg-purple-800 text-white py-2 px-4 mx-4 my-2 rounded-lg"
+            onClick={handleGptSearchClick}
+          >
+            GPT Search
+          </button>
+          <img className="w-12 h-12" alt="usericon" src={user?.photoURL} />
           <button onClick={handleSignOut} className="font-bold text-white">
             (Sign Out)
           </button>

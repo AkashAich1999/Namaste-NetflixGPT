@@ -55,6 +55,8 @@ Implementation Done Till Now:
 - TMDB Image CDN URL
 - Made the Browsre page amazing with Tailwind CSS
 - usePopularMovies Custom hook
+- Building GPT Search Page (GptSearch)
+- Building GPT Search Bar (GptSearchBar)
 - 
 - 
 - 
