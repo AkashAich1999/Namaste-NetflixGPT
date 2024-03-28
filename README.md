@@ -57,6 +57,7 @@ Implementation Done Till Now:
 - usePopularMovies Custom hook
 - Building GPT Search Page (GptSearch)
 - Building GPT Search Bar (GptSearchBar)
+- Building 'Multi-language' Feature in 'GPT Search Page'
 - 
 - 
 - 
