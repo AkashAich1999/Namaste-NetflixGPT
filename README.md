@@ -1,8 +1,6 @@
-In Development Phase (Currently) .....
+<img width="941" alt="hindi_Search_Page" src="https://github.com/AkashAich1999/netflix-gpt/assets/108985323/cdf81a2d-aefe-4ac1-8036-8a13ea12a571">Developed Netflix Clone using ReactJS, Redux, Tailwind CSS, Firebase & TMDB API. 
 
-Building Netflix Clone using ReactJS, Redux, Tailwind CSS, Firebase & TMDB API. 
-I might also use OpenAI API for GPT Search Functionality. (Optional)
-
+Project Planing:
 Features:
 - Login/Sign Up
 
@@ -61,3 +59,18 @@ Implementation Done Till Now:
 - 
 - 
 - 
+[NOTE: 'OPENAI API' has 'Become Paid'. So, 'GPT Search Functionality' was not implemented.]
+
+<img width="938" alt="Email_Validation_Sign_Up" src="https://github.com/AkashAich1999/netflix-gpt/assets/108985323/bfe912b7-cfa0-4dfd-8550-85bd24529a0f">
+
+<img width="932" alt="Password_Validation_Sign_Up" src="https://github.com/AkashAich1999/netflix-gpt/assets/108985323/61fcc073-dacc-49c6-a7d5-9d152359b0bf">
+
+<img width="932" alt="Incorrect_Credential_While_Logging_In" src="https://github.com/AkashAich1999/netflix-gpt/assets/108985323/86606d60-43e2-4402-9bdb-1ffd224efd39">
+
+<img width="946" alt="Background_Trailer" src="https://github.com/AkashAich1999/netflix-gpt/assets/108985323/0ecbe2b7-1dea-4d46-9a11-c28bc9d4a3ff">
+
+<img width="934" alt="Fetching_Movies_From_TMDB_API" src="https://github.com/AkashAich1999/netflix-gpt/assets/108985323/ac60bc50-18ac-41f6-8668-c53db41dbb32">
+
+<img width="943" alt="en_Search_Page" src="https://github.com/AkashAich1999/netflix-gpt/assets/108985323/4b57ab8f-5c63-4d3d-83f2-06a5860b5de4">
+
+<img width="941" alt="hindi_Search_Page" src="https://github.com/AkashAich1999/netflix-gpt/assets/108985323/c996a292-2497-40bc-8b6a-e10c4838e560">
