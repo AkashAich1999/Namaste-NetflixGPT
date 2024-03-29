@@ -1,4 +1,4 @@
-<img width="941" alt="hindi_Search_Page" src="https://github.com/AkashAich1999/netflix-gpt/assets/108985323/cdf81a2d-aefe-4ac1-8036-8a13ea12a571">Developed Netflix Clone using ReactJS, Redux, Tailwind CSS, Firebase & TMDB API. 
+Developed Netflix Clone using ReactJS, Redux, Tailwind CSS, Firebase & TMDB API. 
 
 Project Planing:
 Features:
